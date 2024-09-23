@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: 'Inclusive Sans', sans-serif;
     background: linear-gradient(70deg, blue, purple, pink);
+    background-repeat: no-repeat; /* Evita la repetición del fondo */
+    background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+    background-position: center; /* Centra el fondo en la pantalla */
+    height: 100vh; /* Ajusta la altura del body a la altura total de la ventana */
 }
 h1 {
     text-align: center;
